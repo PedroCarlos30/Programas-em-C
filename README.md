@@ -1,2 +1,2 @@
-# ProgramsInC
-My programs in C
+# ProgramasEmC
+Meus programas em C
