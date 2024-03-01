@@ -1,2 +1,2 @@
-# ProgramingInC
+# ProgramsInC
 My programs in C
