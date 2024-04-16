@@ -35,7 +35,12 @@ int main ()
 			printf("%.2f * %.2f = %.2f", num1, num2, num1 * num2);
 			break;
 		case 4:
-			printf("%.2f / %.2f = %.2f", num1, num2, num1 / num2);
+			//Aqui o if-else verifica e informa 
+			if(num2 == 0){
+				printf("\nA divisão é indefinida!");
+			} else{
+				printf("%.2f / %.2f = %.2f", num1, num2, num1 / num2);
+			}
 			break;
 		default:
 			printf("Essa operação não pode ser realizada.");
