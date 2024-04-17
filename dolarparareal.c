@@ -4,17 +4,20 @@
 
 int main()
 {
-	setlocale(LC_ALL, "Portuguese");
+    inicio:	
+    setlocale(LC_ALL, "Portuguese");
     float dolar, real;
 
-    printf("Qual a atual cotac„o do dolar:\n");
+    printf("Qual a atual cotac√£o do dolar:\n");
     scanf("%f", &dolar);
 
     printf("Qual o valor em reais:\n");
     scanf("%f", &real);
 
-    printf("A convers„o È R$%.2f.\n", real/dolar);
-
+    printf("A convers√£o √© R$%.2f.\n", real/dolar);
+    printf("\n\n");
+    goto inicio;
+//uso do "goto" para repetir o programa.
 	system("pause");
     return 0;
 }
